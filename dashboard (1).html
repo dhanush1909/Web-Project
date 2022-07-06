@@ -1,0 +1,113 @@
+<html>
+
+<head>
+	<title> Attendance Management System</title>
+	<link rel="stylesheet" type="text/css" href="dashboard.css">
+	<script type="text/Javascript">
+		function myFunction() {
+    			var x = document.getElementById("logoutDropdown");
+    			if (x.style.display == "block") {
+        			x.style.display = "none";
+    			} else {
+        			x.style.display = "block";
+    			}
+		}
+	</script>
+</head>
+
+<body>
+	<div class="header">
+	  <img src="avatar.png" class="avatar">
+	  <h1 class="dashboard">Dashboard</h1>
+	  <img src="logout.png" class="logout" onclick="myFunction()">
+	  <nav>
+ 	  <ul>
+	  <li>Attendance</li>
+	  <li>Timetable</li>
+	  <li>Subjects</li>
+	  <li>IA Details</li>
+	  <li>User Details</li>
+	  </ul>
+	  </nav>
+	</div>
+
+	<div id="logoutDropdown">
+		<img src="logout.png" class="logout1">
+		<p class="user">Name</p>
+		<input type="submit" name="" value="Account Settings">
+		<input type="button" name="" value="Logout">
+	</div>
+
+	<!--<iframe src="demo_iframe.htm" height="82%" width="99.7%"></iframe> -->
+
+	<div class="Attendance">
+		<div class="graph">
+			<div class="Heading">
+				<h3 class="headingtext">Subject Attendence Graph</h3>
+			</div>
+		</div>
+		<div class="table">
+			<div class="Heading">
+				<h3 class="headingtext">Subject Attendence Percentage</h3>
+			</div>
+			<div class="Attendancetable">
+				<table class="Atable">
+				<thead>
+				<tr><th>Subject</th>
+				    <th>Classes Conducted</th>
+				    <th>Classes Attended</th>
+				    <th>%</th>
+				</tr>
+				</thead>
+				<tbody>
+					<tr><td><b>Subject name</b></td>
+					<td class="text-right"></td>
+					<td class="text-right"></td>
+					<td class="text-right success"></td>																	</tr>
+					
+					<tr><td><b>Subject name</b></td>
+					<td class="text-right"></td>
+					<td class="text-right"></td>
+					<td class="text-right success"></td>																	</tr>
+									
+					<tr><td><b>Subject name</b></td>
+					<td class="text-right"></td>
+					<td class="text-right"></td>
+					<td class="text-right success"></td>																	</tr>
+									
+					<tr><td><b>Subject name</b></td>
+					<td class="text-right"></td>
+					<td class="text-right"></td>
+					<td class="text-right success"></td>																	</tr>
+									
+					<tr><td><b>Sunject name</b></td>
+					<td class="text-right"></td>
+					<td class="text-right"></td>
+					<td class="text-right success"></td>																	</tr>
+									
+					<tr><td><b>Subject name</b></td>
+					<td class="text-right"></td>
+					<td class="text-right"></td>
+					<td class="text-right success"></td>																	</tr>													
+					
+					<tr><td><b>Subject name</b></td>
+					<td class="text-right"></td>
+					<td class="text-right"></td>
+					<td class="text-right success"></td>																	</tr>
+									
+					<tr><td><b>Subject name</b></td>
+					<td class="text-right"></td>
+					<td class="text-right"></td>
+					<td class="text-right success"></td>																	</tr>
+									
+					<tr><td><b>Subject name</b></td>
+					<td class="text-right"></td>
+					<td class="text-right"></td>
+					<td class="text-right success"></td>																	</tr>
+				</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
